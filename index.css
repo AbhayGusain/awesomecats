@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box
+}
+
+:root {
+    --rainbow: linear-gradient(to right, rgb(248, 200, 200), rgb(247, 215, 154), rgb(242, 242, 160), rgb(181, 248, 181), rgb(174, 174, 245));
+    --rain: linear-gradient(to right, #808080, #b3b3b3,  #bfbfbf, #e6e6e6, #f2f2f2);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Asap', sans-serif;
+    background: hotpink;
+    color: #242124;
+}
+
+body,
+h1,
+button,
+.theme-toggle {
+    background-image: var(--rainbow)
+}
+
+.site-header {
+    background-color: #242124;
+    padding: 0.25em 1em;
+    width: 100%;
+}
+
+.post-container {
+    padding: 1em 2em;
+}
+
+.post,
+button,
+img {
+    -webkit-box-shadow: 2px 2px 4px 0px rgba(36,33,36,0.25); 
+    box-shadow: 2px 2px 4px 0px rgba(36,33,36,0.25);
+    border-radius: 5px;
+}
+
+.post {
+    background-color: white;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr minmax(50px, 250px);
+    min-width: 400px;
+    max-width: 700px;
+    margin: 1em auto 2em;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: 20px 1fr;
+    padding: 0 1em 0 0;
+}
+
+img {
+    width: 100%;
+    max-height: 300px;
+}
+
+h1 {
+    text-align: center;
+    color: hotpink;
+    margin-bottom: 0;
+    font-size: 3rem;
+	max-width: 9em;
+    background-color: hotpink;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+    border: none;
+    padding: 1em 2em;
+    font-size: 0.75rem;
+    font-weight: 700;
+    justify-self: start;
+    align-self: end;
+    background-color: hotpink;
+}
+
+button:hover,
+button:focus {
+    -webkit-box-shadow: 2px 2px 10px 0px rgba(36,33,36,0.25); 
+    box-shadow: 2px 2px 10px 0px rgba(36,33,36,0.25);
+    text-transform: uppercase;
+}
+
+.theme-toggle {
+    height: 30px;
+    width: 50px;
+    border-radius: 15px;
+    border: 3px solid orangered;
+    margin-left: auto;
+    background-color: white;
+    position: relative;
+    cursor: pointer;
+}
+
+.theme-toggle::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: orangered;
+}
+
+.rain {
+    background-color: lightgrey;
+    background-image: var(--rain);
+}
+
+.rain::after {
+    transform: translate(-20px);
+}
