@@ -100,36 +100,6 @@ awesomecats/
 - Enhanced contrast
 - Easy on the eyes for night viewing
 
-## 🔧 Customization
-
-### Colors
-Edit the CSS custom properties in `index.css`:
-```css
-:root {
-    --rainbow: linear-gradient(135deg, #ff6b6b, #ffd93d, #6bcf7f, #4ecdc4, #45b7d1, #96ceb4, #feca57);
-    --rain: linear-gradient(135deg, #667eea, #764ba2, #b993d6, #cc2b5e);
-    --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-```
-
-### Content
-- Update the blog posts in `index.html`
-- Replace cat images in the `img/` folder
-- Modify the footer content
-
-### Animations
-- Adjust animation durations in CSS
-- Modify scroll animation triggers in JavaScript
-- Customize the loading animation
-
-## 📱 Responsive Breakpoints
-
-- **Desktop**: 1200px and above
-- **Tablet**: 768px - 1199px
-- **Mobile**: 480px - 767px
-- **Small Mobile**: Below 480px
-
 ## 🎮 Interactive Features Guide
 
 1. **Theme Toggle**: Click the sun/moon button in the header
@@ -137,13 +107,6 @@ Edit the CSS custom properties in `index.css`:
 3. **Button Ripples**: Click "Read More" buttons for ripple animation
 4. **Scroll Animations**: Scroll down to see posts animate in
 5. **Social Icons**: Hover over footer emoji icons for bounce effect
-
-## 🐛 Browser Support
-
-- ✅ Chrome 60+
-- ✅ Firefox 60+
-- ✅ Safari 12+
-- ✅ Edge 79+
 
 ## 📈 Performance Features
 
@@ -169,23 +132,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Abhay Gusain**
 - GitHub: [@AbhayGusain](https://github.com/AbhayGusain)
-
-## 🙏 Acknowledgments
-
-- Cat images featuring the adorable Pumpkin
-- Google Fonts for the beautiful Asap font family
-- Normalize.css for consistent cross-browser styling
-- Inspiration from modern web design trends
-
-## 🐾 Fun Facts
-
-- The site features a cute bouncing cat loading animation
-- Theme preferences are automatically saved
-- Over 15 different animation effects throughout the site
-- Fully accessible with proper ARIA labels
-- Mobile-first responsive design approach
-
----
 
 Made with 💖 for cat lovers everywhere! 🐱✨
 
