@@ -2,8 +2,6 @@
 
 A beautiful, modern, and interactive cat blog website featuring stunning animations, theme switching, and responsive design.
 
-![Cat Blog Preview](https://via.placeholder.com/800x400/667eea/ffffff?text=🐱+Awesome+Cat+Blog)
-
 ## ✨ Features
 
 ### 🎨 Visual Design
